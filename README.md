@@ -10,11 +10,4 @@ Contents:
 - `example_custom_macro.py` — Example macro using the `RobloxMacro` class
 - `requirements.txt` — Python dependencies
 
-Build (create a onefile Windows EXE) using PyInstaller in the project virtual environment:
-
-```powershell
-Push-Location 'C:\Users\Owner\OneDrive\Documents\Macro'
-& .venv\Scripts\python.exe -m PyInstaller --noconfirm --clean --onefile --windowed --name SimpleMacroTest simple_macro.py
-Pop-Location
-```
 
